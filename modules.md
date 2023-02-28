@@ -65,6 +65,9 @@
 ## mlx4_en  
 >description: Mellanox ConnectX HCA Ethernet driver  
 >depends: mlx4_core,mlx_compat,vxlan  
+## it87  
+>description: IT8705F/IT871xF/IT872xF hardware monitoring driver  
+>depends: hwmon-vid  
 ## r8152  
 >description: Realtek RTL8152/RTL8153 Based USB Ethernet Adapters  
 >depends: usbcore  
@@ -235,6 +238,8 @@
 >depends: cfbimgblt,cfbcopyarea,cfbfillrect,fb  
 ## virtio_ring  
 >description: null  
+## jc42  
+>description: JC42 driver  
 ## i2c-algo-bit  
 >description: I2C-Bus bit-banging algorithm  
 ## cxgb4vf  

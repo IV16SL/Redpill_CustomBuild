@@ -735,6 +735,20 @@
             }
         },
         {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
+            }
+        },
+        {
             "filename": "r8152",
             "version": "v2.16.3 (2022/07/06)",
             "license": "GPL",
@@ -2545,6 +2559,18 @@
             "file": "drivers/virtio/virtio_ring"
         },
         {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
+        },
+        {
             "filename": "i2c-algo-bit",
             "license": "GPL",
             "description": "I2C-Bus bit-banging algorithm",
@@ -3951,6 +3977,20 @@
                 "pfctx": "Priority based Flow Control policy on TX[7:0]. Per priority bit mask (uint)",
                 "pfcrx": "Priority based Flow Control policy on RX[7:0]. Per priority bit mask (uint)",
                 "inline_thold": "Threshold for using inline data (range: 17-104, default: 104) (uint)"
+            }
+        },
+        {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "hwmon-vid",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
             }
         },
         {
@@ -5950,6 +5990,18 @@
             ]
         },
         {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
+        },
+        {
             "filename": "drm",
             "license": "GPL and additional rights",
             "description": "DRM panel infrastructure",
@@ -7409,6 +7461,20 @@
                 "pfctx": "Priority based Flow Control policy on TX[7:0]. Per priority bit mask (uint)",
                 "pfcrx": "Priority based Flow Control policy on RX[7:0]. Per priority bit mask (uint)",
                 "inline_thold": "Threshold for using inline data (range: 17-104, default: 104) (uint)"
+            }
+        },
+        {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "hwmon-vid",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
             }
         },
         {
@@ -9325,6 +9391,18 @@
             "file": "drivers/virtio/virtio_ring"
         },
         {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
+        },
+        {
             "filename": "i2c-algo-bit",
             "license": "GPL",
             "description": "I2C-Bus bit-banging algorithm",
@@ -10619,6 +10697,20 @@
                 "pfctx": "Priority based Flow Control policy on TX[7:0]. Per priority bit mask (uint)",
                 "pfcrx": "Priority based Flow Control policy on RX[7:0]. Per priority bit mask (uint)",
                 "inline_thold": "Threshold for using inline data (range: 17-104, default: 104) (uint)"
+            }
+        },
+        {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "hwmon-vid",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
             }
         },
         {
@@ -12316,6 +12408,18 @@
             },
             "alias": [
                 "platform:rtc_cmos"
+            ]
+        },
+        {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
             ]
         },
         {
@@ -18074,6 +18178,20 @@
             }
         },
         {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "hwmon-vid",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
+            }
+        },
+        {
             "filename": "r8152",
             "version": "v2.16.3 (2022/07/06)",
             "license": "GPL",
@@ -19868,6 +19986,18 @@
             ]
         },
         {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
+        },
+        {
             "filename": "i2c-algo-bit",
             "license": "GPL",
             "description": "I2C-Bus bit-banging algorithm",
@@ -21281,6 +21411,20 @@
                 "pfctx": "Priority based Flow Control policy on TX[7:0]. Per priority bit mask (uint)",
                 "pfcrx": "Priority based Flow Control policy on RX[7:0]. Per priority bit mask (uint)",
                 "inline_thold": "Threshold for using inline data (range: 17-104, default: 104) (uint)"
+            }
+        },
+        {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "hwmon-vid",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
             }
         },
         {
@@ -23323,6 +23467,18 @@
             ]
         },
         {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
+        },
+        {
             "filename": "drm",
             "license": "GPL and additional rights",
             "description": "DRM panel infrastructure",
@@ -24785,6 +24941,20 @@
                 "pfctx": "Priority based Flow Control policy on TX[7:0]. Per priority bit mask (uint)",
                 "pfcrx": "Priority based Flow Control policy on RX[7:0]. Per priority bit mask (uint)",
                 "inline_thold": "Threshold for using inline data (range: 17-104, default: 104) (uint)"
+            }
+        },
+        {
+            "filename": "it87",
+            "license": "GPL",
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
+            "author": "Chris Gauthron, Jean Delvare <jdelvare@suse.de>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "parm": {
+                "force_id": "Override the detected device ID (ushort)",
+                "update_vbat": "Update vbat if set else return powerup value (bool)",
+                "fix_pwm_polarity": "Force PWM polarity to active high (DANGEROUS) (bool)"
             }
         },
         {
@@ -26568,6 +26738,18 @@
             "filename": "virtio_ring",
             "license": "GPL",
             "file": "drivers/virtio/virtio_ring"
+        },
+        {
+            "filename": "jc42",
+            "license": "GPL",
+            "description": "JC42 driver",
+            "author": "Guenter Roeck <linux@roeck-us.net>",
+            "depends": "",
+            "retpoline": "Y",
+            "vermagic": "4.4.180+ SMP mod_unload ",
+            "alias": [
+                "i2c:jc42"
+            ]
         },
         {
             "filename": "i2c-algo-bit",
