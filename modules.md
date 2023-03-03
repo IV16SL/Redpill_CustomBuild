@@ -309,6 +309,9 @@
 >description: null  
 ## scsi_transport_sas  
 >description: SAS Transport Attributes  
+## i915.9BA8+9BC8  
+>description: Intel Graphics  
+>depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
 ## drm_kms_helper  
 >description: DRM KMS helper  
 >depends: drm,fb,fb_sys_fops,cfbfillrect,syscopyarea,cfbimgblt,sysfillrect,sysimgblt,cfbcopyarea  
@@ -334,6 +337,9 @@
 >depends: backlight  
 ## hwmon-vid  
 >description: hwmon-vid driver  
+## i915.3E98  
+>description: Intel Graphics  
+>depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
 ## i915  
 >description: Intel Graphics  
 >depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
@@ -344,6 +350,9 @@
 ## drm  
 >description: DRM panel infrastructure  
 >depends: drm_panel_orientation_quirks  
+## i915.9BC5  
+>description: Intel Graphics  
+>depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
 ## ehci-pci  
 >description: EHCI PCI platform driver  
 >depends: usbcore,ehci-hcd  
@@ -396,6 +405,12 @@
 >description: AMD 10 Gigabit Ethernet Driver  
 ## marvell10g  
 >description: Marvell Alaska X 10Gigabit Ethernet PHY driver (MV88X3310)  
+## i915.9CA8  
+>description: Intel Graphics  
+>depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
+## i915.9BC8  
+>description: Intel Graphics  
+>depends: drm_kms_helper,drm,iosf_mbi,backlight,video,fb,button,i2c-algo-bit  
 ## mptlan  
 >description: Fusion MPT LAN driver  
 >depends: mptbase  
